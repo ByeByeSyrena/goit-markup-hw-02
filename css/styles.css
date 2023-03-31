@@ -1,0 +1,199 @@
+:root {
+    --back-color:white; 
+    --cornflower:#E7E9FC;
+    --navy-blue:#2E2F42;
+--cloud:#F4F4FD;
+--iris:#4D5AE5;
+--ocean:#404BBF;
+--slate:#434455;
+}
+
+ul {
+    list-style: none;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+/* backgrounds */
+
+.header {background-color: var(--cornflower);}
+body {background-color: var(--back-color);
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: var(--slate);}
+.main-first-section {background-color: var(--navy-blue);}
+.main-fourth-section {background-color: var(--cloud);}
+.footer {background-color: var(--navy-blue);}
+
+/* logo */
+.logo-header {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,7;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
+}
+
+.logo-footer {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,7;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--cloud);}
+
+.logo-web {
+    color: var(--iris);
+}
+/* links */
+.contacts {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1,7;
+    letter-spacing: 0.02em;
+    color: var(--slate);}
+
+.contacts:hover, .contacts:focus {color: var(--iris);}
+
+/* navigation */
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,7;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.link:hover {font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1,7;
+    letter-spacing: 0.02em;
+    color: var(--slate);}
+
+.link:focus {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1,7;
+    letter-spacing: 0.02em;
+    color: var(--iris);}
+
+/* paragraphs */
+
+.description
+{
+    font-size: 16px;
+    line-height: 1,7;
+    letter-spacing: 0.02em;
+}
+
+.footer-description {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1,7;
+            letter-spacing: 0.02em;
+            color: var(--cloud);}
+
+            /* headlines */
+.titles {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;}
+
+.subtitles {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);}
+
+.portf-titles {
+    text-decoration: none;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1,2;
+            letter-spacing: 0.02em;
+            color: var(--navy-blue);
+        }
+
+
+    /* first section elements */
+.main-headline {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--back-color);}
+
+        .btn {
+            cursor: pointer;
+            background: var(--iris);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        font-family: inherit;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1,7;
+            align-items: center;
+            letter-spacing: 0.04em;
+            color: var(--back-color);}
+
+        .btn:hover {background-color: var(--iris)}
+        .btn:focus {background-color: var(--ocean);}
+         
+                       
+/* portfolio filter */
+
+.filter-buttons {
+    text-decoration: none;
+    cursor: pointer;
+background: var(--cloud);
+font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,7;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+}
+
+.filter-buttons:hover, .filter-buttons:focus {
+    text-decoration: none;
+    cursor: pointer;
+    background: var(--ocean);
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,7;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: var(--back-color);
+}
+
+.link-picture {text-decoration: inherit;}
+
+/* 4th section elements */
+
+.card
+{background: var(--cornflower);}
