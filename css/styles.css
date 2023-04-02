@@ -112,6 +112,7 @@ color: var(--slate);}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--slate)
 }
 
 .footer-description {
@@ -181,7 +182,7 @@ background: var(--cloud);
 font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
