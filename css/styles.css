@@ -1,211 +1,231 @@
 :root {
-    --back-color:white; 
-    --cornflower:#E7E9FC;
-    --navy-blue:#2E2F42;
---cloud:#F4F4FD;
---iris:#4D5AE5;
---ocean:#404BBF;
---slate:#434455;
+  --back-color: #ffffff;
+  --cornflower: #e7e9fc;
+  --navy-blue: #2e2f42;
+  --cloud: #f4f4fd;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --slate: #434455;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 ul {
-    margin-left: 0;
-    padding-left: 0;
+  margin-left: 0;
+  padding-left: 0;
 }
 /* backgrounds */
 
-.header {background-color: var(--cornflower);}
-body {background-color: var(--back-color);
-    font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-color: var(--slate);}
-.main-first-section {background-color: var(--navy-blue);}
-.main-fourth-section {background-color: var(--cloud);}
-.footer {background-color: var(--navy-blue);}
+body {
+  background-color: var(--back-color);
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+}
+.main-first-section {
+  background-color: var(--navy-blue);
+}
+.main-fourth-section {
+  background-color: var(--cloud);
+}
+.footer {
+  background-color: var(--navy-blue);
+}
 
 /* logo */
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.logo-web
-    {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
 }
 
 .logo-studio {
-        font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    color: var(--navy-blue);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue);
 }
 
 .logo-st-bottom {
-        font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--cloud);}
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud);
+}
 
 /* links */
 .contacts {
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);}
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
 
-.contacts:hover, .contacts:focus {color: var(--ocean);}
+.contacts:hover,
+.contacts:focus {
+  color: var(--ocean);
+}
 
 /* navigation */
 
-.list {list-style: none;}
-
-.link-nav {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
+.list {
+  list-style: none;
 }
 
-.link-nav:hover {font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.7;
-    letter-spacing: 0.02em;
-    color: var(--ocean);}
+.link-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.link-nav:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: var(--ocean);
+}
 
 .link-nav:focus {
-    font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.7;
-    letter-spacing: 0.02em;
-    color: var(--ocean);}
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: var(--ocean);
+}
 
-    /* adress */
-.address-list {font-style: normal;}
+/* adress */
+.address-list {
+  font-style: normal;
+}
 
 /* paragraphs */
 
-.description
-{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate)
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 .footer-description {
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.7;
-            letter-spacing: 0.02em;
-            color: var(--cloud);}
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
 
-            /* headlines */
+/* headlines */
 .titles {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-color: var(--navy-blue);}
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
 
 .subtitles {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);}
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
 
 .portf-titles {
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color: var(--navy-blue);
-        }
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
 
-
-    /* first section elements */
+/* first section elements */
 .main-headline {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: var(--back-color);}
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--back-color);
+}
 
-        .btn {
-            cursor: pointer;
-            background: var(--iris);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        font-family: inherit;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            align-items: center;
-            letter-spacing: 0.04em;
-            color: var(--back-color);}
+.btn {
+  cursor: pointer;
+  background: var(--iris);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--back-color);
+}
 
-        .btn:hover {background-color: var(--ocean)}
-        .btn:focus {background-color: var(--ocean);}
-         
-                       
+.btn:hover {
+  background-color: var(--ocean);
+}
+.btn:focus {
+  background-color: var(--ocean);
+}
+
 /* portfolio filter */
 
 .filter-buttons {
-    text-decoration: none;
-    cursor: pointer;
-background: var(--cloud);
-font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: var(--iris);
+  text-decoration: none;
+  cursor: pointer;
+  background: var(--cloud);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--iris);
 }
 
-.filter-buttons:hover, .filter-buttons:focus {
-    text-decoration: none;
-    cursor: pointer;
-    background: var(--ocean);
-    font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.7;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-        color: var(--back-color);
+.filter-buttons:hover,
+.filter-buttons:focus {
+  text-decoration: none;
+  cursor: pointer;
+  background: var(--ocean);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--back-color);
 }
 
 /* 4th section elements */
 
-.card
-{background: var(--back-color);}
+.card {
+  background: var(--back-color);
+}
