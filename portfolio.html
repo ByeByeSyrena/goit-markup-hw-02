@@ -17,17 +17,21 @@
   <body>
     <!-- Шапка -->
     <header class="header">
-      <nav>
-        <a href="./index.html" class="logo-header"
-          ><span class="logo-web">Web</span>Studio</a
-        >
+      <a href="./index.html" class="link logo-web"
+        >Web<span class="logo-studio">Studio</span></a
+      >
+      <nav class="list">
         <ul>
-          <li><a class="link" href="./index.html">Studio</a></li>
-          <li><a class="link" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="link" href="">Contacts</a></li>
+          <li>
+            <a class="link link-nav" href="./index.html">Studio</a>
+          </li>
+          <li>
+            <a class="link link-nav" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="link link-nav" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="list address-list">
         <ul>
           <li>
             <a class="contacts" href="mailto:info@devstudio.com"
@@ -44,19 +48,20 @@
       <!-- Buttons -->
       <section>
         <h1 hidden>First hidden headline</h1>
-        <ul>
+        <ul class="list">
           <li><button type="button" class="filter-buttons">All</button></li>
           <li>
             <button type="button" class="filter-buttons">Web Site</button>
           </li>
           <li><button type="button" class="filter-buttons">App</button></li>
+          <li><button type="button" class="filter-buttons">Design</button></li>
           <li>
             <button type="button" class="filter-buttons">Marketing</button>
           </li>
         </ul>
-        <ul>
+        <ul class="list">
           <li class="card">
-            <a href="" class="link-picture">
+            <a href="" class="link">
               <img
                 src="./images/bankapp.jpg"
                 alt="Banking App Interface Concept"
@@ -68,7 +73,7 @@
             >
           </li>
           <li class="card">
-            <a href="" class="link-picture">
+            <a href="" class="link">
               <img
                 src="./images/qr-code.jpg"
                 alt="Cashless Payment"
@@ -80,7 +85,7 @@
             >
           </li>
           <li class="card">
-            <a href="" class="link-picture">
+            <a href="" class="link">
               <img
                 src="./images/normalcy.jpg"
                 alt="Meditation App"
@@ -94,7 +99,7 @@
         </ul>
         <ul>
           <li class="card">
-            <a href="" class="link-picture">
+            <a href="" class="link">
               <img
                 src="./images/navigator.jpg"
                 alt="Taxi Service"
@@ -106,7 +111,7 @@
             >
           </li>
           <li class="card">
-            <a href="" class="link-picture">
+            <a href="" class="link">
               <img
                 src="./images/phone.jpg"
                 alt="Screen Illustrations"
@@ -118,7 +123,7 @@
             >
           </li>
           <li class="card">
-            <a href="" class="link-picture">
+            <a href="" class="link">
               <img
                 src="./images/girl.jpg"
                 alt="Online Courses"
@@ -132,7 +137,7 @@
         </ul>
         <ul>
           <li class="card">
-            <a href="" class="link-picture">
+            <a href="" class="link">
               <img
                 src="./images/make-everything.jpg"
                 alt="Instagram Stories Concept"
@@ -144,7 +149,7 @@
             >
           </li>
           <li class="card">
-            <a href="" class="link-picture">
+            <a href="" class="link">
               <img
                 src="./images/shopping.jpg"
                 alt="Organic Food"
@@ -156,7 +161,7 @@
             >
           </li>
           <li class="card">
-            <a href="" class="link-picture">
+            <a href="" class="link">
               <img
                 src="./images/coffee.jpg"
                 alt="Fresh Coffee"
@@ -173,8 +178,8 @@
 
     <!-- Підвал -->
     <footer class="footer">
-      <a href="./index.html" class="logo-footer"
-        ><span class="logo-web">Web</span>Studio</a
+      <a href="./index.html" class="link logo-web"
+        >Web<span class="logo-st-bottom">Studio</span></a
       >
       <p class="footer-description">
         Increase the flow of customers and sales for your business with digital

@@ -17,17 +17,21 @@
   <body>
     <!-- Шапка -->
     <header class="header">
-      <nav>
-        <a href="./index.html" class="logo-header"
-          ><span class="logo-web">Web</span>Studio</a
-        >
+      <a href="./index.html" class="link logo-web"
+        >Web<span class="logo-studio">Studio</span></a
+      >
+      <nav class="list">
         <ul>
-          <li><a class="link" href="./index.html">Studio</a></li>
-          <li><a class="link" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="link" href="">Contacts</a></li>
+          <li>
+            <a class="link link-nav" href="./index.html">Studio</a>
+          </li>
+          <li>
+            <a class="link link-nav" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="link link-nav" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="list address-list">
         <ul>
           <li>
             <a class="contacts" href="mailto:info@devstudio.com"
@@ -51,8 +55,8 @@
 
       <!-- Переваги -->
       <section class="main-second-section">
-        <h2 hidden>Content</h2>
-        <ul>
+        <h2 hidden class="subtitles">Content</h2>
+        <ul class="list">
           <li>
             <h3 class="subtitles">Strategy</h3>
             <p class="description">
@@ -87,7 +91,7 @@
       <!-- Вот ар ю дуін -->
       <section class="main-third-section">
         <h2 class="titles">What are we doing</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/img1.jpg"
@@ -113,10 +117,9 @@
       <!-- Команда -->
       <section class="main-fourth-section">
         <h2 class="titles">Our Team</h2>
-        <ul>
-          <li>
+        <ul class="list">
+          <li class="card">
             <img
-              class="card"
               src="./images/mark.jpg"
               alt="Product Designer"
               width="264"
@@ -125,9 +128,8 @@
             <h3 class="subtitles">Mark Guerrero</h3>
             <p class="description">Product Designer</p>
           </li>
-          <li>
+          <li class="card">
             <img
-              class="card"
               src="./images/tom.jpg"
               alt="Frontend Developer"
               width="264"
@@ -136,9 +138,8 @@
             <h3 class="subtitles">Tom Ford</h3>
             <p class="description">Frontend Developer</p>
           </li>
-          <li>
+          <li class="card">
             <img
-              class="card"
               src="./images/camila.jpg"
               alt="Marketing Manager"
               width="264"
@@ -164,8 +165,8 @@
 
     <!-- Підвал -->
     <footer class="footer">
-      <a href="./index.html" class="logo-footer"
-        ><span class="logo-web">Web</span>Studio</a
+      <a href="./index.html" class="link logo-web"
+        >Web<span class="logo-st-bottom">Studio</span></a
       >
       <p class="footer-description">
         Increase the flow of customers and sales for your business with digital
